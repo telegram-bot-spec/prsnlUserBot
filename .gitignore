@@ -2,9 +2,6 @@
 __pycache__/
 *.pyc
 *.session
-*.session-journal
+*.log
 .vscode/
 .idea/
-venv/
-env/
-.DS_Store
