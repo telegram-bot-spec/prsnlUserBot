@@ -173,7 +173,7 @@ MONGO_URI = get_env("MONGO_URI", required=False)
 BOT_USERNAME = "MaiHuAryan"
 BOT_NAME = "Aryan"
 TIMEZONE = pytz.timezone("Asia/Kolkata")
-GEMINI_MODEL = "gemini-3-flash-latest"
+GEMINI_MODEL = "gemini-2.5-flash-latest"
 
 if GEMINI_AVAILABLE:
     SAFETY_SETTINGS = {
