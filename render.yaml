@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: aryan-userbot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    startCommand: python main.py
+    envVars:
+      - key: PORT
+        value: 10000
