@@ -1,7 +1,7 @@
 pyrogram==2.0.106
-tgcrypto
+tgcrypto==1.2.5
 motor==3.3.2
-dnspython
+dnspython==2.4.2
 google-generativeai>=0.3.0
-python-dotenv
-pytz
+python-dotenv==1.0.0
+pytz==2023.3.post1
