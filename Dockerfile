@@ -2,11 +2,15 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
+# Install dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Copy code
 COPY . .
 
+# Port for web server
 EXPOSE 10000
 
-CMD C"python", "main.py".
+# Start command
+CMD ["python", "main.py"]
